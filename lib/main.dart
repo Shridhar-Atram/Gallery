@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+//import 'package:flutter/material.dart';
+
 void main() {
   runApp(MyApp());
 }
@@ -12,14 +14,13 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
 
       // Title of App
-      title: 'GFG slider',
+      title: 'Flutter Demo',
       theme: ThemeData(
         primarySwatch: Colors.green,
       ),
       darkTheme: ThemeData.dark(),
 
-      //First Screen of Slider App
-      //home: HomePage(),
+      home: HomePage(),
     );
   }
 }
